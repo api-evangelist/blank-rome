@@ -1,0 +1,39 @@
+{
+  "repo": "blank-rome",
+  "feeds": [
+    {
+      "source": "https://www.blankrome.com/publications/mainbrace",
+      "feed_url": "",
+      "title": "Mainbrace (Blank Rome Maritime Newsletter)",
+      "saved": 0,
+      "error": "no_public_rss_discovered",
+      "notes": "Mainbrace issues are individually published at /publications/mainbrace-{month}-{year}. Site is gated by Vercel bot-mitigation; programmatic RSS discovery was blocked during this run."
+    },
+    {
+      "source": "https://www.blankrome.com/news-and-events",
+      "feed_url": "",
+      "title": "Blank Rome News And Events",
+      "saved": 0,
+      "error": "no_public_rss_discovered",
+      "notes": "Client alerts and press releases are listed on the News & Events page; no public RSS feed identified."
+    },
+    {
+      "source": "https://www.blankrome.com/publications",
+      "feed_url": "",
+      "title": "Blank Rome Publications",
+      "saved": 0,
+      "error": "no_public_rss_discovered",
+      "notes": "Practice-area publications index; subscription is via email signup form rather than RSS."
+    },
+    {
+      "source": "https://www.blankromegr.com/publications",
+      "feed_url": "",
+      "title": "Blank Rome Government Relations Publications",
+      "saved": 0,
+      "error": "no_public_rss_discovered",
+      "notes": "Policy bulletins from BRGR; no public RSS feed identified."
+    }
+  ],
+  "fetched": "2026-05-23T00:00:00Z",
+  "post_count": 0
+}
