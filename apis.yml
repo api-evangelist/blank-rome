@@ -19,7 +19,7 @@ description: >-
 type: Index
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: >-
   https://raw.githubusercontent.com/api-evangelist/blank-rome/refs/heads/main/apis.yml
 humanURL: https://www.blankrome.com
@@ -56,7 +56,7 @@ apis:
     API, OpenAPI specification, GraphQL endpoint, or developer portal. It is
     protected by bot-mitigation that rate-limits automated crawlers.
   humanURL: https://www.blankrome.com
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   tags:
   - Law Firm Website
   - Thought Leadership
@@ -111,7 +111,7 @@ apis:
     Act; activity is reportable in publicly searchable Senate LDA filings.
     BRGR does not expose a developer API.
   humanURL: https://www.blankromegr.com
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   tags:
   - Government Affairs
   - Lobbying
