@@ -136,6 +136,8 @@ apis:
   - Track BRGR-published policy bulletins
   - Verify registered lobbying activity via Senate LDA filings
 common:
+- type: DomainSecurity
+  url: security/blank-rome-domain-security.yml
 - type: Website
   url: https://www.blankrome.com
 - type: About
