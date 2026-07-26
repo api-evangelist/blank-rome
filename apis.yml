@@ -17,53 +17,105 @@ description: >-
   this profile catalogs the firm's public-facing knowledge surface (practice
   pages, newsletters, alerts) rather than a developer platform.
 type: Index
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blank-rome.png
 url: >-
   https://raw.githubusercontent.com/api-evangelist/blank-rome/refs/heads/main/apis.yml
 humanURL: https://www.blankrome.com
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 kind: company
 tags:
-- Am Law 100
-- Corporate Law
-- Government Affairs
-- Government Contracts
-- Intellectual Property
-- Labor And Employment
-- Law
-- Law Firm
-- Legal Services
-- Litigation
-- Lobbying
-- Maritime Law
-- Professional Services
-- Restructuring
-- Tax
-- White Collar Defense
+  - Am Law 100
+  - Corporate Law
+  - Government Affairs
+  - Government Contracts
+  - Intellectual Property
+  - Labor And Employment
+  - Law
+  - Law Firm
+  - Legal Services
+  - Litigation
+  - Lobbying
+  - Maritime Law
+  - Professional Services
+  - Restructuring
+  - Tax
+  - White Collar Defense
 apis:
-- aid: blank-rome:website
-  name: Blank Rome Public Website
-  description: >-
-    The Blank Rome public website at blankrome.com is the firm's primary
-    external knowledge surface, organizing attorney biographies, practice and
-    industry pages, office locations, client alerts, publications (including
-    the Mainbrace maritime newsletter), news and events, and recruiting
-    content. The site is delivered via Vercel and does not expose a public
-    API, OpenAPI specification, GraphQL endpoint, or developer portal. It is
-    protected by bot-mitigation that rate-limits automated crawlers.
-  humanURL: https://www.blankrome.com
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-  tags:
-  - Law Firm Website
-  - Thought Leadership
-  - Attorney Directory
-  properties:
+  - aid: blank-rome:website
+    name: Blank Rome Public Website
+    description: >-
+      The Blank Rome public website at blankrome.com is the firm's primary
+      external knowledge surface, organizing attorney biographies, practice and
+      industry pages, office locations, client alerts, publications (including
+      the Mainbrace maritime newsletter), news and events, and recruiting
+      content. The site is delivered via Vercel and does not expose a public
+      API, OpenAPI specification, GraphQL endpoint, or developer portal. It is
+      protected by bot-mitigation that rate-limits automated crawlers.
+    humanURL: https://www.blankrome.com
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+    tags:
+      - Law Firm Website
+      - Thought Leadership
+      - Attorney Directory
+    properties:
+      - type: Website
+        url: https://www.blankrome.com
+      - type: People
+        url: https://www.blankrome.com/people
+      - type: Services
+        url: https://www.blankrome.com/services
+      - type: Offices
+        url: https://www.blankrome.com/offices
+      - type: NewsAndEvents
+        url: https://www.blankrome.com/news-and-events
+      - type: Publications
+        url: https://www.blankrome.com/publications
+      - type: About
+        url: https://www.blankrome.com/about
+      - type: Careers
+        url: https://www.blankrome.com/careers
+      - type: Contact
+        url: https://www.blankrome.com/contact-us
+      - url: graphql/blank-rome-graphql.md
+        type: GraphQL
+    x-features:
+      - Attorney And Principal Directory
+      - Practice Area Pages
+      - Industry Group Pages
+      - Office Locator
+      - Client Alerts Library
+      - Publications Library
+      - Mainbrace Maritime Newsletter
+      - News And Events Feed
+      - Careers And Recruiting Portal
+    x-use-cases:
+      - Locate a Blank Rome attorney by name, practice, or office
+      - Read the latest client alert on a regulatory development
+      - Subscribe to Mainbrace for maritime legal commentary
+      - Research the firm before retaining counsel
+      - Apply to summer associate or lateral attorney programs
+common:
+  - type: DomainSecurity
+    url: security/blank-rome-domain-security.yml
   - type: Website
     url: https://www.blankrome.com
+  - type: About
+    url: https://www.blankrome.com/about
   - type: People
     url: https://www.blankrome.com/people
   - type: Services
@@ -74,156 +126,78 @@ apis:
     url: https://www.blankrome.com/news-and-events
   - type: Publications
     url: https://www.blankrome.com/publications
-  - type: About
-    url: https://www.blankrome.com/about
+  - type: Mainbrace
+    url: https://www.blankrome.com/publications/mainbrace
+  - type: GovernmentRelations
+    url: https://www.blankromegr.com
   - type: Careers
     url: https://www.blankrome.com/careers
+  - type: Diversity
+    url: https://www.blankrome.com/diversity
+  - type: ProBono
+    url: https://www.blankrome.com/pro-bono
   - type: Contact
     url: https://www.blankrome.com/contact-us
-  - url: graphql/blank-rome-graphql.md
-    type: GraphQL
-  x-features:
-  - Attorney And Principal Directory
-  - Practice Area Pages
-  - Industry Group Pages
-  - Office Locator
-  - Client Alerts Library
-  - Publications Library
-  - Mainbrace Maritime Newsletter
-  - News And Events Feed
-  - Careers And Recruiting Portal
-  x-use-cases:
-  - Locate a Blank Rome attorney by name, practice, or office
-  - Read the latest client alert on a regulatory development
-  - Subscribe to Mainbrace for maritime legal commentary
-  - Research the firm before retaining counsel
-  - Apply to summer associate or lateral attorney programs
-- aid: blank-rome:government-relations
-  name: Blank Rome Government Relations
-  description: >-
-    Blank Rome Government Relations LLC (BRGR) is the firm's affiliated
-    federal-lobbying and public-policy advocacy arm, operating from
-    Washington, D.C. BRGR represents corporate, trade-association, and
-    non-profit clients before Congress, the Executive Branch, and federal
-    agencies on matters including appropriations, defense, energy, healthcare,
-    tax, trade, and transportation. The practice publishes its own newsletter
-    issues at blankromegr.com and is registered under the Lobbying Disclosure
-    Act; activity is reportable in publicly searchable Senate LDA filings.
-    BRGR does not expose a developer API.
-  humanURL: https://www.blankromegr.com
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-  tags:
-  - Government Affairs
-  - Lobbying
-  - Public Policy
-  - Federal Advocacy
-  properties:
-  - type: Website
-    url: https://www.blankromegr.com
-  - type: Publications
-    url: https://www.blankromegr.com/publications
-  - type: LobbyingDisclosureFilings
-    url: https://lda.senate.gov/system/public/
-  x-features:
-  - Federal Legislative Advocacy
-  - Executive-Branch And Agency Engagement
-  - Appropriations Strategy
-  - Coalition Building
-  - Policy Newsletter Publications
-  x-use-cases:
-  - Engage federal lobbyists on appropriations priorities
-  - Build a coalition around a regulatory rulemaking
-  - Track BRGR-published policy bulletins
-  - Verify registered lobbying activity via Senate LDA filings
-common:
-- type: DomainSecurity
-  url: security/blank-rome-domain-security.yml
-- type: Website
-  url: https://www.blankrome.com
-- type: About
-  url: https://www.blankrome.com/about
-- type: People
-  url: https://www.blankrome.com/people
-- type: Services
-  url: https://www.blankrome.com/services
-- type: Offices
-  url: https://www.blankrome.com/offices
-- type: NewsAndEvents
-  url: https://www.blankrome.com/news-and-events
-- type: Publications
-  url: https://www.blankrome.com/publications
-- type: Mainbrace
-  url: https://www.blankrome.com/publications/mainbrace
-- type: GovernmentRelations
-  url: https://www.blankromegr.com
-- type: Careers
-  url: https://www.blankrome.com/careers
-- type: Diversity
-  url: https://www.blankrome.com/diversity
-- type: ProBono
-  url: https://www.blankrome.com/pro-bono
-- type: Contact
-  url: https://www.blankrome.com/contact-us
-- type: LinkedIn
-  url: https://www.linkedin.com/company/blank-rome-llp
-- type: WikipediaPage
-  url: https://en.wikipedia.org/wiki/Blank_Rome
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/blank-rome-llp
+  - type: WikipediaPage
+    url: https://en.wikipedia.org/wiki/Blank_Rome
 x-practice-areas:
-- Commercial And Corporate Litigation
-- Class Action Defense
-- Financial Institutions Litigation And Regulatory Compliance (FILARC)
-- Corporate, M&A, And Securities
-- Cross-Border And International
-- Energy
-- Environmental
-- Mass Torts
-- Finance, Restructuring, And Bankruptcy
-- Government Contracts
-- Intellectual Property And Technology
-- Labor And Employment
-- Maritime
-- International Trade
-- Matrimonial And Family Law
-- Private Client, Trusts, And Estates
-- Real Estate
-- Tax (Federal, State, And Local)
-- White Collar Defense And Investigations
-- Insurance Recovery
-- Appellate
-- Cybersecurity And Data Privacy
-- Healthcare And Life Sciences
-- Government Relations (BRGR)
+  - Commercial And Corporate Litigation
+  - Class Action Defense
+  - Financial Institutions Litigation And Regulatory Compliance (FILARC)
+  - Corporate, M&A, And Securities
+  - Cross-Border And International
+  - Energy
+  - Environmental
+  - Mass Torts
+  - Finance, Restructuring, And Bankruptcy
+  - Government Contracts
+  - Intellectual Property And Technology
+  - Labor And Employment
+  - Maritime
+  - International Trade
+  - Matrimonial And Family Law
+  - Private Client, Trusts, And Estates
+  - Real Estate
+  - Tax (Federal, State, And Local)
+  - White Collar Defense And Investigations
+  - Insurance Recovery
+  - Appellate
+  - Cybersecurity And Data Privacy
+  - Healthcare And Life Sciences
+  - Government Relations (BRGR)
 x-industries:
-- Aviation And Aerospace
-- Banking And Financial Services
-- Cannabis
-- Education
-- Energy
-- Gaming
-- Healthcare And Life Sciences
-- Insurance
-- Manufacturing
-- Maritime And Shipping
-- Private Equity
-- Real Estate
-- Retail And Consumer Products
-- Technology
-- Transportation
+  - Aviation And Aerospace
+  - Banking And Financial Services
+  - Cannabis
+  - Education
+  - Energy
+  - Gaming
+  - Healthcare And Life Sciences
+  - Insurance
+  - Manufacturing
+  - Maritime And Shipping
+  - Private Equity
+  - Real Estate
+  - Retail And Consumer Products
+  - Technology
+  - Transportation
 x-offices:
-- Philadelphia, PA (HQ)
-- Washington, DC
-- New York, NY
-- Los Angeles, CA
-- Houston, TX
-- Chicago, IL
-- Princeton, NJ
-- Pittsburgh, PA
-- Wilmington, DE
-- Cincinnati, OH
-- Fort Lauderdale, FL
-- Tampa, FL
-- Orange County, CA
-- Shanghai, China
+  - Philadelphia, PA (HQ)
+  - Washington, DC
+  - New York, NY
+  - Los Angeles, CA
+  - Houston, TX
+  - Chicago, IL
+  - Princeton, NJ
+  - Pittsburgh, PA
+  - Wilmington, DE
+  - Cincinnati, OH
+  - Fort Lauderdale, FL
+  - Tampa, FL
+  - Orange County, CA
+  - Shanghai, China
 x-firm-profile:
   founded: 1946
   headquarters: Philadelphia, PA
@@ -234,11 +208,11 @@ x-firm-profile:
   chair_and_managing_partner: Grant S. Palmer
   chair_emeritus: Alan J. Hoffman
   notable_strengths:
-  - Maritime And International Trade
-  - Government Contracts
-  - Government Relations / Lobbying
-  - Corporate And Finance
-  - Intellectual Property
+    - Maritime And International Trade
+    - Government Contracts
+    - Government Relations / Lobbying
+    - Corporate And Finance
+    - Intellectual Property
 maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
