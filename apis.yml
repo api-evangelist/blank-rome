@@ -1,5 +1,5 @@
 aid: blank-rome
-name: Blank Rome LLP
+name: Blank Rome
 description: >-
   Blank Rome LLP is an Am Law 100 U.S. law firm founded in 1946 and headquartered
   in Philadelphia, with approximately 600+ attorneys across roughly 14 U.S.
@@ -119,8 +119,6 @@ apis:
         url: https://www.blankrome.com/careers
       - type: Contact
         url: https://www.blankrome.com/contact-us
-      - url: graphql/blank-rome-graphql.md
-        type: GraphQL
     x-features:
       - Attorney And Principal Directory
       - Practice Area Pages
@@ -244,3 +242,4 @@ x-firm-profile:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-legal-name: Blank Rome LLP
