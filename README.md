@@ -1,4 +1,4 @@
-# Blank Rome LLP (blank-rome)
+# Blank Rome
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,153 +66,87 @@
 
 Blank Rome LLP is an Am Law 100 U.S. law firm founded in 1946 and headquartered in Philadelphia, with approximately 600+ attorneys across roughly 14 U.S. offices plus an international presence (Shanghai). The firm provides comprehensive legal and government-advocacy services across commercial and corporate litigation, corporate / M&A and finance, restructuring and bankruptcy, government contracts, intellectual property, labor and employment, real estate, tax, white-collar defense, matrimonial and family law, and a nationally recognized maritime and international trade practice. Blank Rome Government Relations LLC, the firm's affiliated lobbying arm, operates from Washington, D.C. The firm publishes practice-area client alerts, the Mainbrace maritime newsletter, and industry insights through its website's News & Events and Publications sections. Blank Rome does not operate a public developer program, REST/GraphQL API, SDK ecosystem, or GitHub organization; this profile catalogs the firm's public-facing knowledge surface (practice pages, newsletters, alerts) rather than a developer platform.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/blank-rome/refs/heads/main/apis.yml)
-**Human URL:** [https://www.blankrome.com](https://www.blankrome.com)
+**Areas:** Am Law 100 · Corporate Law · Government Affairs · Government Contracts · Intellectual Property · Labor And Employment · Law · Law Firms · Legal Services · Litigation · Lobbying · Maritime Law
 
-## Scope
+## Blank Rome on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
-- **Classification:** Company
+Everything profiled for Blank Rome is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/blank-rome/](https://apis.io/providers/blank-rome/)** — or go straight to one of the APIs or properties below.
 
-## Firm Profile
+### APIs (1)
 
-- **Founded:** 1946
-- **Headquarters:** Philadelphia, PA
-- **Attorneys:** ~600 (≈800 total legal professionals)
-- **Offices:** ~14 (U.S. + Shanghai)
-- **Am Law Ranking:** Am Law 100
-- **Chair & Managing Partner:** Grant S. Palmer
-- **Chair Emeritus:** Alan J. Hoffman
+- [Blank Rome Public Website](https://apis.io/apis/blank-rome/website/) — The Blank Rome public website at blankrome.com is the firm's primary external knowledge surface, organizing attorney biographies, practice and industry…
 
-## Tags
+### Published properties
 
-- Am Law 100, Corporate Law, Government Affairs, Government Contracts, Intellectual Property, Labor And Employment, Law, Law Firm, Legal Services, Litigation, Lobbying, Maritime Law, Professional Services, Restructuring, Tax, White Collar Defense
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### GraphQL (1)
 
-- **Created:** 2026-05-23
-- **Modified:** 2026-05-23
+GraphQL schemas.
 
-## APIs
+- [Moved to /providers/blank-rome/](https://apis.io/graphqls/blank-rome/blank-rome-graphql/)
 
-> Blank Rome operates no public developer APIs. The entries below catalog the firm's public information surface.
+#### Security (1)
 
-### Blank Rome Public Website
+Authentication, trust centre, and vulnerability disclosure.
 
-The blankrome.com website is the firm's primary external knowledge surface — attorney biographies, practice and industry pages, office locations, client alerts, publications, and recruiting content. Delivered via Vercel and protected by bot-mitigation; no OpenAPI, GraphQL, or developer portal.
+- [Blank Rome Domain Security](https://apis.io/security/blank-rome/blank-rome-domain-security/)
 
-**Human URL:** [https://www.blankrome.com](https://www.blankrome.com)
+## Where to find this API
 
-#### Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.blankrome.com)
-- [People](https://www.blankrome.com/people)
-- [Services](https://www.blankrome.com/services)
-- [Offices](https://www.blankrome.com/offices)
-- [News & Events](https://www.blankrome.com/news-and-events)
-- [Publications](https://www.blankrome.com/publications)
-- [About](https://www.blankrome.com/about)
-- [Careers](https://www.blankrome.com/careers)
-- [Contact](https://www.blankrome.com/contact-us)
 
-### Blank Rome Government Relations (BRGR)
+## API Evangelist rating
 
-Affiliated federal-lobbying and public-policy arm operating from Washington, D.C., representing corporate and trade-association clients before Congress, the Executive Branch, and federal agencies. Activity is publicly reportable in Senate LDA filings.
+**Kin Score 4.6** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Human URL:** [https://www.blankromegr.com](https://www.blankromegr.com)
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
 
-#### Properties
+**Agent readiness 0.0** — human-only
 
-- [Website](https://www.blankromegr.com)
-- [Publications](https://www.blankromegr.com/publications)
-- [Lobbying Disclosure Filings](https://lda.senate.gov/system/public/)
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Practice Areas
+**Regulatory alignment 5.9** — Government & Public Sector
 
-- Commercial And Corporate Litigation
-- Class Action Defense
-- Financial Institutions Litigation & Regulatory Compliance (FILARC)
-- Corporate, M&A, And Securities
-- Cross-Border And International
-- Energy / Environmental / Mass Torts
-- Finance, Restructuring, And Bankruptcy
-- Government Contracts
-- Intellectual Property And Technology
-- Labor And Employment
-- Maritime
-- International Trade
-- Matrimonial And Family Law
-- Private Client, Trusts, And Estates
-- Real Estate
-- Tax (Federal, State, And Local)
-- White Collar Defense And Investigations
-- Insurance Recovery
-- Appellate
-- Cybersecurity And Data Privacy
-- Healthcare And Life Sciences
-- Government Relations (BRGR)
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/blank-rome/](https://apis.io/providers/blank-rome/).
 
-## Industry Groups
+## How this profile is made
 
-- Aviation And Aerospace
-- Banking And Financial Services
-- Cannabis
-- Education
-- Energy
-- Gaming
-- Healthcare And Life Sciences
-- Insurance
-- Manufacturing
-- Maritime And Shipping
-- Private Equity
-- Real Estate
-- Retail And Consumer Products
-- Technology
-- Transportation
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Offices
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Blank Rome: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-Philadelphia (HQ) · Washington, DC · New York · Los Angeles · Houston · Chicago · Princeton · Pittsburgh · Wilmington · Cincinnati · Fort Lauderdale · Tampa · Orange County · Shanghai
+## Open an issue
 
-## Thought Leadership
-
-- **Mainbrace** — Flagship maritime-law newsletter; issues published at `/publications/mainbrace-{month}-{year}`.
-- **Client Alerts** — Practice-area regulatory and case-law alerts via the News & Events feed.
-- **Publications Library** — Articles, whitepapers, and event recaps across all practices.
-- **BRGR Policy Bulletins** — Federal policy and appropriations briefings at blankromegr.com.
-
-> No public RSS feeds were discoverable during this profiling run — the site is gated by Vercel bot-mitigation and subscription appears to be via email signup.
-
-## Common Properties
-
-- [Website](https://www.blankrome.com)
-- [About](https://www.blankrome.com/about)
-- [People](https://www.blankrome.com/people)
-- [Services](https://www.blankrome.com/services)
-- [Offices](https://www.blankrome.com/offices)
-- [News & Events](https://www.blankrome.com/news-and-events)
-- [Publications](https://www.blankrome.com/publications)
-- [Mainbrace](https://www.blankrome.com/publications/mainbrace)
-- [Government Relations](https://www.blankromegr.com)
-- [Careers](https://www.blankrome.com/careers)
-- [Diversity](https://www.blankrome.com/diversity)
-- [Pro Bono](https://www.blankrome.com/pro-bono)
-- [Contact](https://www.blankrome.com/contact-us)
-- [LinkedIn](https://www.linkedin.com/company/blank-rome-llp)
-- [Wikipedia](https://en.wikipedia.org/wiki/Blank_Rome)
-
-## Notable Absences
-
-- **No public APIs** — no REST, GraphQL, webhook, or SDK surface.
-- **No GitHub organization** — no `github.com/blankrome` or equivalent exists.
-- **No OpenAPI / AsyncAPI / JSON Schema** — not applicable to a law-firm public site.
-- **No public RSS feeds** — newsletters distributed by email subscription.
-- **No public pricing** — engagements are bespoke / quoted per matter.
-- **No status page / changelog** — firm is not a SaaS provider.
-
-## Maintainers
-
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/blank-rome/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
